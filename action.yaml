@@ -10,3 +10,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
+outputs:
+  answer:
+    description: 'The answer to everything (always 42)'
